@@ -60,12 +60,12 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 598);
+/******/ 	return __webpack_require__(__webpack_require__.s = 926);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 598:
+/***/ 926:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -73,4 +73,4 @@
 /***/ })
 
 /******/ });
-//# sourceMappingURL=styles.bundle.464f43c96d4455fbd2e2.js.map
+//# sourceMappingURL=styles.bundle.e0dcfae82939e2d11e96.js.map
