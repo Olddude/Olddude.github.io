@@ -21101,7 +21101,7 @@ function keyExists(storage, saveObjKey) {
 }
 function appendToKeyObject(storage, objToSave, saveObjKey) {
     var saveObjJson = storage.getItem(saveObjKey);
-    var saveObjArray = Array.from(JSON.parse(saveObjJson));
+    var saveObjArray = Array(JSON.parse(saveObjJson));
     var hash = object_hash_1.sha1(objToSave);
     if (!saveObjArray.find(function (_) { return _.key === hash; })) {
         saveObjArray.push({ key: hash, value: objToSave });
@@ -21127,7 +21127,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function loadAll(storage, key) {
     var output;
     try {
-        output = Array.from(JSON.parse(storage.getItem(key)));
+        output = Array(JSON.parse(storage.getItem(key)));
     }
     catch (e) {
         output = [];
@@ -57324,4 +57324,4 @@ exports.stringify = stringify;
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=app.bundle.4e83644fc99259da2091.js.map
+//# sourceMappingURL=app.bundle.587011744af655c7e5ef.js.map
