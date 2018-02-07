@@ -60,17 +60,17 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 709);
+/******/ 	return __webpack_require__(__webpack_require__.s = 926);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 709:
+/***/ 926:
 /***/ (function(module, exports) {
 
-
+// removed by extract-text-webpack-plugin
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=polyfills.bundle.587011744af655c7e5ef.js.map
+//# sourceMappingURL=styles.bundle.ec92476256d10faee0ca.js.map
